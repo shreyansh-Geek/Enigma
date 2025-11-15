@@ -629,7 +629,7 @@ br
   margin-bottom: 10px;
   box-shadow: 0 0 20px rgba(0, 212, 255, 0.8); /* Neon glow */
   transition: transform 0.6s ease, box-shadow 0.4s ease;
-  z-index: 2;
+  z-index: 0;
 }
 
 .coordinator img:hover {
@@ -731,6 +731,8 @@ footer {
   box-shadow: 0 0 50px rgba(0, 255, 255, 0.6); /* Futuristic glow */
   border-top: 2px solid rgba(0, 255, 255, 0.3);
   text-align: center;
+  z-index: -1;
+  
 }
 
 .footer-content {
