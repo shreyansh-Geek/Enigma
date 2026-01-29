@@ -26,7 +26,7 @@ import tanu from "../Assets/tanu.jpg";
 import khushbu from "../Assets/khushbu.jpg";
 import kashish from "../Assets/kashish.jpg";
 import anish from "../Assets/anish.jpg";
-import poster from "../Assets/poster.jpg";
+import poster from "../Assets/CodeQuest.jpeg";
 import vision from "../Assets/targeting.png";
 import mission from "../Assets/mission.png";
 import objective from "../Assets/trophy.png";
@@ -137,22 +137,21 @@ const Home = () => {
     {/* single inner row that holds two side-by-side divs */}
     <div className="event-row">
       <div className="event-left">
-        <img src={poster} alt="Enigma Orientation Poster" />
+        <img src={poster} alt="CodeQuest 1 Poster" />
       </div>
 
       <div className="event-right">
-        <h3>Enigma Orientation 2025</h3>
+        <h3>CodeQuest 1 : Coding Contest</h3>
 
         <ul>
-          <li><strong>Date:</strong> 08 November 2025</li>
-          <li><strong>Time:</strong> 10:00 AM – 1:00 PM</li>
-          <li><strong>Venue:</strong> Vikram Sarabhai Auditorium, LNCT</li>
+          <li><strong>Date:</strong> 31 January 2026</li>
+          <li><strong>Time:</strong> 9:00 PM – 10:30 PM</li>
+          <li><strong>Venue:</strong> Online</li>
         </ul>
 
         <p className="event-desc">
-          Kickstart your AIML journey with Enigma’s Orientation! Discover what we do,
-          meet the core team, and explore how you can learn, build, and innovate with
-          us throughout the year.
+          Compete with your peers, sharpen your skills, and see where you stand in this
+          beginner friendly 1 Hour contest.Join anytime between 9:00 PM to 9:30 PM. 
         </p>
 
         <a

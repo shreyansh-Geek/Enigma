@@ -3,19 +3,26 @@ import Countdown from '../Countdown/Countdown';
 import './Event.css';
 
 const events = [
+  {
+    title: 'CodeQuest 1 Coding Contest',
+    date: '2026-01-31T21:00:00',
+    description:'Compete with your peers, sharpen your skills, and see where you stand.',
+    link: 'https://forms.gle/XGm33VqJthW12XSm8',
+    status:'open',
+  },
   { 
     title: 'Enigma CP Cohort 2026',
     date: '2026-01-05T00:00:00',
     description:'Community Cohort for CP Practitioners',
     link: 'https://forms.gle/XGm33VqJthW12XSm8',
-    status:'open',
+    status:'closed',
   },
   {
     title: 'Enigma Open-Source Program',
     date: '2026-01-05T00:00:00',
     description:'Build with us with the power of Open Source. Research grade, ML based projects from the Enigma Community.',  
     link:'https://forms.gle/XGm33VqJthW12XSm8',
-    status:'open',
+    status:'closed',
   },
   {
     title: 'Enigma Orientation 2025',
